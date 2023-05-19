@@ -6,6 +6,11 @@ const person = {
   }
 };
 
+const copiedPerson = { ...person };
+console.log(copiedPerson);
+// Result : { name: 'Max', age: 29, greet: [Function: greet] }
+// Spread operator
+
 const hobbies = ['Sports', 'Cooking'];
 // for (let hobby of hobbies) {
 //     console.log(hobby);
