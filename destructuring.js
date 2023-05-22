@@ -6,9 +6,9 @@ const person = {
   }
 };
 
-const printName = (personData) => {
-    console.log(personData.name);
-}
+const printName = ({ name }) => {
+  console.log(name);
+};
 
 printName(person);
 
