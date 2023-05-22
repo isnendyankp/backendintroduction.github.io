@@ -9,7 +9,9 @@ const person = {
 const printName = ({ name }) => {
   console.log(name);
 };
-
+// result: Max
 printName(person);
 
-// result: Max
+const { name, age } = person;
+console.log(name, age);
+// result: Max 29
