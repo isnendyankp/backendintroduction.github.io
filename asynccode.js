@@ -26,4 +26,5 @@ console.log('Hi!');
 // Hello!
 // Hi!
 // Timer is done! (with delay 2 seconds)
-// Done!(with delay 1,5 seconds after timer is done) 
+// Done!(with delay 1,5 seconds after timer is done)
+// Done! (again twice after done) 
