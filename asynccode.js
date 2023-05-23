@@ -1,5 +1,11 @@
 setTimeout(() => {
     console.log('Timer is done!');
-}, 2000);
+}, 1);
 
-// NodeJS result: Timer is done!
+console.log('Hello!');
+console.log('Hi!');
+
+// NodeJS result: 
+// Hello!
+// Hi!
+// Timer is done!
